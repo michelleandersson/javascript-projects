@@ -8,6 +8,13 @@ body {
     flex-direction: column;
 }
 
+h1, h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(216, 214, 214);
+    text-shadow: 1px 1px 1px black;
+}
+
 .button {
     width: 100px;
     height: 70px;
@@ -19,4 +26,9 @@ body {
 .button:hover {
     background-color:rgb(94, 94, 95);
     color: white;
+}
+
+#color {
+    margin-top: 10px;
+    background-color: white;
 }
