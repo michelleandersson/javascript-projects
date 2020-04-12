@@ -1,0 +1,51 @@
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(72, 139, 165);
+}
+
+.container {
+    max-width: 300px;
+    width: 100%;
+    min-height: 200px;
+    background-color: rgb(177, 153, 116);
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.button {
+    position: absolute;
+    top: 10px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    background-color: rgb(159, 161, 161);
+}
+
+.button:hover {
+    background-color: cadetblue;
+}
+
+.quote-container {
+    position: absolute;
+    top: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quote-author {
+    position: absolute;
+    bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
