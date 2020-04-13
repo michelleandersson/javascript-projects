@@ -1,0 +1,58 @@
+body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-image: url(mainBcg.jpeg);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+h1, h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container {
+    max-width: 250px;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 0.5rem black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px; 
+    margin: 20px;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.counter {
+    font-size: 50px;
+}
+
+.button {
+    width: 100px;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #0d2c54;
+    color: white;
+    box-shadow: 0 0.2rem 0.5rem black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #00a6ed;
+}
