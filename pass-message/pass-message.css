@@ -1,0 +1,63 @@
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(156, 223, 223);
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    min-height: 200px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(173, 172, 169);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#message-form {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.message {
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+.button {
+    margin-top: 20px; 
+    background-color: rgb(95, 175, 175);
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+.button:hover {
+    background-color: rgb(46, 99, 99);
+    color: white;
+}
+
+.message-content {
+    color: rgb(46, 99, 99);
+    font-size: 20px;
+}
