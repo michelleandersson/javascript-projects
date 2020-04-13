@@ -10,6 +10,11 @@ body {
     font-family: 'Baloo Paaji 2', cursive;
 }
 
+h1, h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .container {
     max-width: 400px;
     width: 100%;
