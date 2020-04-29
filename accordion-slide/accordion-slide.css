@@ -1,0 +1,71 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F6704B;
+    overflow: auto;
+    overflow-x: hidden;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+h2 {
+    display: inline;
+    text-align: center;
+}
+
+.location {
+    background-color: #620808;
+    color: #FFE9C1;
+}
+
+.title {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 380px;
+    height: 100px;
+    font-size: 24px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+img {
+    padding-left: 7px;
+    padding-right: 40px;
+}
+
+.text {
+    width: 380px;
+    height: 200px;
+    font-size: 18px;
+    padding: 20px;
+    box-shadow: 0px 0px 6px black inset;
+}
+
+.music {
+    background-color: #A53F3F;
+    color: #F4CE74;
+}
+
+
+
+.notes {
+    background-color: #F4CE74;
+    color: #620808;
+}
+
+.books {
+    background-color: #FFE9C1;
+    color: #620808;
+}
+
+.tendances {
+    background-color: #D5441C;
+    color: #FFE9C1;
+}
